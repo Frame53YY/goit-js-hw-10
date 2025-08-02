@@ -1,0 +1,106 @@
+.main-title {
+  margin-bottom: 16px;
+}
+
+.datetime {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.datetime input {
+  box-sizing: border-box;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  width: 272px;
+  height: 40px;
+  background: #fff;
+  margin-right: 8px;
+  outline: none;
+}
+
+.datetime input:hover {
+  border-color: #000;
+}
+
+.datetime input:focus {
+  border-color: #4e75ff;
+}
+
+.datetime input:disabled {
+  color: #808080;
+  border-color: #808080;
+  cursor: not-allowed;
+}
+
+.datetime button {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 75px;
+  height: 40px;
+  background: #4e75ff;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.datetime button:disabled,
+.datetime button:hover:disabled {
+  background: #cfcfcf;
+  color: #989898;
+  cursor: not-allowed;
+}
+
+.datetime button:hover {
+  background: #6c8cff;
+}
+
+span.flatpickr-day.selected {
+  background: #4e75ff;
+  border-color: #4e75ff;
+}
+span.flatpickr-day.selected:hover,
+span.flatpickr-day:hover {
+  background: #c1c1c1;
+  border-color: #c1c1c1;
+}
+
+span.flatpickr-day.today {
+  border-color: #4e75ff;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.field .value {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.field .label {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-transform: uppercase;
+}
