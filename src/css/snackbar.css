@@ -1,0 +1,83 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 360px;
+  gap: 16px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+label:first-child {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  display: flex;
+  gap: 8px;
+}
+
+input[type='number'] {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  padding: 8px 16px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  outline: none;
+}
+
+input[type='number']:hover {
+  border: 1px solid #000;
+}
+
+input[type='number']:focus {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  margin: 0;
+  border-radius: 4px;
+  height: 64px;
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+}
+
+fieldset legend {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+fieldset input {
+  accent-color: #4e75ff;
+}
+
+form button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  background: #4e75ff;
+}
+
+form button:hover {
+  background: #6c8cff;
+}
