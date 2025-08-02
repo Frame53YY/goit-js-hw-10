@@ -22,7 +22,7 @@ label:first-child {
   gap: 8px;
 }
 
-input[type='number'] {
+form input[type='number'] {
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #2e2f42;
